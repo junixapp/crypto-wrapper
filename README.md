@@ -22,12 +22,12 @@ A simple wrapper for node crypto module, zero dependency, very easy to use!
 ## how to use
 first, install.
 ```bash
-npm i crypto-wrapper -S
+npm i lxj-crypto -S
 ```
 
 then, like this:
 ```
-const crypto = require('crypto-wrapper');
+const crypto = require('lxj-crypto');
 crypto.md5("xx");
 
 crypto.aesEncypt("data", "key");
